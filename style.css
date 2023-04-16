@@ -5,7 +5,8 @@
 }
 
 .active-navbar{
-    text-shadow: 0 0 6px #59de34, 0 0 8px #59de34, 0 0 11px #59de34;
+    /*qui lo stile del 'li' della navbar attivo*/
+    font-weight: 550 !important;
 }
 
 .navbar-icon{
