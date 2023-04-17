@@ -1,14 +1,26 @@
-.sidebar{
+/*questa porzione consente alla sidebar di rimanere attaccata al sito posizonandola a 10% dall'alto*/
+.sidebar {
     position: -webkit-sticky;
     position: sticky;
     top: 10%;
 }
 
-.active-navbar{
-    /*qui lo stile del 'li' della navbar attivo*/
+.sidebar2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80%;
+}
+
+/*qui lo stile del 'li' della navbar attivo, in questo caso lo rende in grassetto*/
+.active-navbar {
     font-weight: 550 !important;
 }
 
-.navbar-icon{
+/*effetto di sfumatura bianca dietro il navbar-logo*/
+.navbar-icon {
     filter: drop-shadow(0px 0px 5px #c3c3c3);
+}
+
+.logo-volterra-card {
+    width: 126px !important;
 }
