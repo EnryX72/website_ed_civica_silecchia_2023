@@ -16,16 +16,66 @@
     transition: 0.3s;
 }
 
-.navbar-icon:hover{
+.navbar-icon:hover {
     filter: drop-shadow(0px 0px 7px #c3c3c3);
 }
 
+/*immagine del volterra nella card della sidebar*/
 .logo-volterra-card {
     width: 126px !important;
 }
 
-.main-text{
+/*impaginazione testo main*/
+.main-text {
     margin-top: 5px;
     text-align: justify;
     font-weight: 400;
 }
+
+/*stili del main (colonna sx)*/
+.main {
+    background-color: #2c2c2c3b !important;
+    border-radius: 20px;
+}
+
+
+/*sfondo degli elementi della sidebar*/
+.list-group-item {
+    background-color: #2c2c2c5e !important;
+
+}
+
+/*scrollbar*/
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: auto;
+    scrollbar-color: #777 #555;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: rgba(119, 119, 119, 0.3333333333);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #797979;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: rgba(85, 85, 85, 0.041);
+}
+
+@media only screen and (max-width: 768px) {
+    html::-webkit-scrollbar {
+        visibility: hidden;
+    }
+
+    /*non funziona, in mobile dovrebbe nascondere la scrollbar*/
+}
+
+/*scrollbar end*/
