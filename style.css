@@ -1,3 +1,7 @@
+a[data-hs-anchor] {
+    top: -200px;  
+}
+
 /*questa porzione consente alla sidebar di rimanere attaccata al sito posizonandola a 10% dall'alto*/
 .sidebar {
     position: -webkit-sticky;
